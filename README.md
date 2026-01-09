@@ -1,19 +1,17 @@
-# Spoofer --> bypass anti cheat bans (HWID, MAC, MOBO, ETC.)
-Supports: All Windows Versions, All CPUS, All Motherboard (Except DP, ALIENWARE, and HP since the BIOS is not AMI). 
+# Windows Identifier Spoofing Research
 
+## Overview
+This project explores techniques for generating and applying alternative identifier values within a Windows environment. The focus is on understanding Windows internals, system identifiers, and controlled modification patterns for research and education.
 
-You are able to "Spoof" the idenifity of you PC using this program. Meaning, you can protect the real idenity of your PC. Moreover, it prevents the intrusive, kernel level Anti-Cheats to fetch your current idenitifiers. With news Anti-Cheats, kernel level is becoming the norm. You could use this to bypass the bans 
+## Technical Focus
+- Research on Windows identifier structures
+- Memory interaction and safe replacement strategies
+- Controlled system value modification
+- Low-level C++ and Windows API utilization
 
-#Langes used: 
-  - C++
-  - Batch 
-  
-# Uses KEYAUTH:
-  - https://keyauth.win
-  - lowkey really really shit but it made me loads of money
- 
- # Uses AMIDEWIN:
-  - Uses open source files such as "Amidewin" to spoof the current Ids of pc
-  - There is a kernel leve that the .exe of amidewin uses, havent check at it yet (however, it fetches the ids and changes them).
- 
- # A simple program to mask your IDS. 
+## Notes
+- Educational and research-oriented
+- Not intended for production deployment or unauthorized usage
+
+## Disclaimer
+Maintained strictly for educational and systems programming research purposes.
